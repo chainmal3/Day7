@@ -1,0 +1,131 @@
+/* 
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 5px;
+} */
+
+/* General Styles */
+body {
+    /* Set the font family for the body text */
+    /* Set the margin and padding of the body to 0 */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5em 0.5em;
+    margin: 0.5em 0.5em;
+    }
+
+    /* Header Styles */
+    header {
+    /* Set the background color of the header */
+    /* Add padding to the header */
+    background-color: rgb(125, 203, 86);
+    padding: 0.5em 0.5em;
+    }
+
+    h1 {
+    /* Set the color of the heading text */
+    /* Remove the margin from the heading */
+        color: rgb(130, 113, 6);
+        margin: 0;
+    }
+
+    nav ul {
+    /* Remove the default bullet points from the unordered list */
+    /* Remove the padding from the unordered list */
+    /* Add margin to the unordered list */
+        list-style-type: none;
+        padding: 0;
+        margin: 20px;
+    }
+
+    nav li {
+    /* Display the list items inline */
+    /* Add margin to the list items */
+        display: inline;
+        margin: 20px;
+    }
+
+    nav li a {
+    /* Set the color and remove text decoration of the links */
+        color: rgb(130, 113, 6);
+        text-decoration: none;
+    }
+
+    /* Flexbox Styles */
+    #flexbox-section {
+    /* Add padding to the flexbox section */
+    /* Set the background color of the flexbox section */
+        padding: 0.5em 0.5em;
+        background-color: rgb(125, 203, 86);
+    }
+
+    .flex-container {
+    /* Create a flex container */
+    /* Enable wrapping of flex items */
+    /* Distribute flex items evenly with space between them */
+    /* Align flex items vertically */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .flex-item {
+    /* Set background color for flex items */
+    /* Add padding to the flex items */
+    /* Add margin to the flex items */
+    /* Set the flex basis for flex items */
+        background-color: rgb(130, 113, 6);
+        padding: 10px;
+        margin: 5px;
+        flex-basis: 200px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 900;
+    }
+    /* Grid Styles */
+    #grid-section {
+    /* Add padding to the grid section */
+    /* Set the background color of the grid section */
+        padding: 10px;
+        background-color: rgb(125, 203, 86);
+    }
+
+    .grid-container {
+    /* Create a grid container */
+    /* Define the number of columns and their sizes */
+    /* Set the gap between grid items */
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 10px;
+    }
+    .grid-item {
+    /* Set background color for grid items */
+    /* Add padding to the grid items */
+        background-color: rgb(130, 113, 6);
+        padding: 10px;
+        border-radius: 30px;
+    }
+    @media screen and (max-width: 768px) {
+    /* Responsive Styles */
+    .flex-container {
+    /* Change the flex direction to a column layout */
+    .flex-item {
+    /* Adjust the flex basis of flex items */
+    }
+    }
+    .grid-container {
+    /* Modify the grid template columns for smaller screens */
+    }
+    }
+    
+    
